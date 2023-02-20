@@ -248,3 +248,95 @@ html {
   gap: 12px;
   display: flex;
 }
+
+
+/*INDEX STYLE*/
+
+.body{Width: 1600px;
+  margin: 0px;
+}
+
+
+/*Sectiunea 1*/
+
+.main-title{
+font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+ 
+}
+.button-from-main-title{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+background-color: #2196F3;
+border-radius: 4px;
+color: #FFFFFF;
+border: 0px;
+padding: 10px 10px 10px 10px;
+height: 50px;
+width: 200px;
+ 
+}
+
+.section-one{
+background-color: #2F303A;
+height: 600px;
+width: 1600px;
+border-radius: 0px;
+display: flex;
+flex-direction: column;
+}
+
+/* Oue Crieria*/
+
+.main-our-criteria{
+  display: flex;
+}
+
+.our-criteria{
+  display: flex;
+  gap: 30px;
+}
+
+.title-criteria{
+height: 16px;
+width: 270px;
+border-radius: nullpx;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #212121;
+} 
+.paragraf-criteria{
+height: 75px;
+width: 270px;
+border-radius: nullpx;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+
+}
+
+/*Sectiunea What we do*/
+
+.what-we-do, .what-we-do-images{
+  display: flex;
+}
+
+.what-we-do-div{
+  width: 1600px;
+}
