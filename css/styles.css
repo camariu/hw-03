@@ -108,10 +108,6 @@ html {
 
 /* Footer*/
 
-.footer {
-  background: #2f303a;
-}
-
 .footer-address,
 .footer-tel-email {
   text-decoration: none;
@@ -236,6 +232,7 @@ html {
   height: 251px;
   width: 1600px;
   margin-top: 94px;
+  background-color: #2f303a;
 }
 .adress-main {
   display: flex;
@@ -249,94 +246,185 @@ html {
   display: flex;
 }
 
-
 /*INDEX STYLE*/
 
-.body{Width: 1600px;
+.body {
+  width: 1600px;
   margin: 0px;
 }
 
-
 /*Sectiunea 1*/
 
-.main-title{
-font-family: Roboto;
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0.06em;
-color: #FFFFFF;
- 
+.main-title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-radius: nullpx;
+  text-align: center;
+  margin: auto;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  height: 120px;
+  width: 696px;
+  margin-top: 200px;
 }
-.button-from-main-title{
-font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.06em;
-text-align: center;
-background-color: #2196F3;
-border-radius: 4px;
-color: #FFFFFF;
-border: 0px;
-padding: 10px 10px 10px 10px;
-height: 50px;
-width: 200px;
- 
+.button-from-main-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: #2196f3;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 0px;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
 }
 
-.section-one{
-background-color: #2F303A;
-height: 600px;
-width: 1600px;
-border-radius: 0px;
-display: flex;
-flex-direction: column;
+.section-one {
+  background-color: #2f303a;
+  height: 600px;
+  width: 1600px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.button-main-title {
+  display: flex;
+  justify-content: center;
 }
 
 /* Oue Crieria*/
 
-.main-our-criteria{
+.main-our-criteria {
   display: flex;
 }
 
-.our-criteria{
+.our-criteria {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
-.title-criteria{
-height: 16px;
-width: 270px;
-border-radius: nullpx;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: left;
-color: #212121;
-} 
-.paragraf-criteria{
-height: 75px;
-width: 270px;
-border-radius: nullpx;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.03em;
-text-align: left;
-color: #757575;
-
+.title-criteria {
+  height: 16px;
+  width: 270px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #212121;
+}
+.paragraf-criteria {
+  height: 75px;
+  width: 270px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
 }
 
 /*Sectiunea What we do*/
 
-.what-we-do, .what-we-do-images{
+.what-we-do-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 50px;
+}
+
+.what-we-do,
+.what-we-do-images {
   display: flex;
 }
 
-.what-we-do-div{
+.what-we-do-div {
   width: 1600px;
+}
+.what-we-do-images {
+  gap: 30px;
+  justify-content: center;
+}
+
+/*Ouer Team*/
+
+.our-team {
+  height: 648px;
+  width: 1600px;
+  border-radius: 0px;
+  background-color: #f5f4fa;
+  display: flex;
+  flex-direction: column;
+  margin-top: 94px;
+}
+.our-team-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.our-team-name {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.our-team-ocupation {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-index {
+  display: flex;
+  height: 251px;
+  width: 1600px;
+  margin-top: 0px;
+  background-color: #2f303a;
+}
+
+.shodow-list{
+  box-shadow:  0px, 2px rgba(0, 0, 0, 0.2), 0px, 1px rgba(0, 0, 0, 0.14),0px, 1px rgba(0, 0, 0, 0.12);
 }
