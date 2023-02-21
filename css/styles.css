@@ -225,7 +225,7 @@ html {
 
 /*Footer*/
 
-.logo-footer {
+.navigation-logo-2 {
   padding-top: 60px;
   margin-left: 215px;
 }
@@ -235,6 +235,8 @@ html {
   width: 1600px;
   margin-top: 94px;
   background-color: #2f303a;
+  flex-direction: column;
+  display: flex;
 }
 .adress-main {
   display: flex;
@@ -425,6 +427,8 @@ html {
   gap: 30px;
   padding-inline-start: 0px;
 }
+
+/* Footer-Index*/
 
 .footer-index {
   display: flex;
