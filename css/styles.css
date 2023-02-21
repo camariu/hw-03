@@ -166,7 +166,7 @@ html {
 
 .navigation-logo-1 {
   margin-left: 215px;
-  margin-right: 93px;
+  margin-right: 53px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -178,8 +178,10 @@ html {
 
 .navigation-list-right {
   gap: 40px;
-  margin-left: 385px;
+  margin-left: 345px;
   margin-top: 32px;
+  color: #757575;
+  text-decoration: none;
 }
 
 /*Buttons*/
@@ -248,6 +250,17 @@ html {
 
 /*INDEX STYLE*/
 
+.main-title,
+.button-from-main-title,
+.title-criteria,
+.paragraf-criteria,
+.what-we-do-title,
+.our-team-title,
+.our-team-name,
+.our-team-ocupation {
+  font-family: Roboto;
+}
+
 .body {
   width: 1600px;
   margin: 0px;
@@ -256,7 +269,6 @@ html {
 /*Sectiunea 1*/
 
 .main-title {
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
@@ -274,7 +286,6 @@ html {
   margin-top: 200px;
 }
 .button-from-main-title {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -300,7 +311,7 @@ html {
 }
 .button-main-title {
   display: flex;
-  justify-content: center;
+  margin-left: 640px;
 }
 
 /* Oue Crieria*/
@@ -321,7 +332,7 @@ html {
   height: 16px;
   width: 270px;
   border-radius: nullpx;
-  font-family: Roboto;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -333,7 +344,7 @@ html {
   height: 75px;
   width: 270px;
   border-radius: nullpx;
-  font-family: Roboto;
+
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -345,7 +356,6 @@ html {
 /*Sectiunea What we do*/
 
 .what-we-do-title {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -366,6 +376,7 @@ html {
 .what-we-do-images {
   gap: 30px;
   justify-content: center;
+  padding-inline-start: 0px;
 }
 
 /*Ouer Team*/
@@ -380,7 +391,6 @@ html {
   margin-top: 94px;
 }
 .our-team-title {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
@@ -392,7 +402,6 @@ html {
 }
 
 .our-team-name {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -401,7 +410,6 @@ html {
 }
 
 .our-team-ocupation {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -415,6 +423,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  padding-inline-start: 0px;
 }
 
 .footer-index {
@@ -423,8 +432,10 @@ html {
   width: 1600px;
   margin-top: 0px;
   background-color: #2f303a;
+  flex-direction: column;
 }
 
-.shodow-list{
-  box-shadow:  0px, 2px rgba(0, 0, 0, 0.2), 0px, 1px rgba(0, 0, 0, 0.14),0px, 1px rgba(0, 0, 0, 0.12);
+.shodow-list {
+  box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
